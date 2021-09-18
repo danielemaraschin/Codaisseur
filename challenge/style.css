@@ -1,0 +1,31 @@
+body {
+    background-image: url("https://media.istockphoto.com/vectors/french-fries-seamless-pattern-fast-food-wallpaper-texture-vector-vector-id1231458243");
+    background-color: #cccccc;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color:white;
+}
+
+h1{
+    color:white;
+    font-size: 100px;
+}
+p {
+    font-size: 20px;
+    font-style: bold;
+    color:white;
+
+}
+
+img {
+    border-radius: 50%;
+}
+
+.blue-text {
+    color: blue
+}
+
+.fundo {
+    background-color: rgba(161, 134, 134, 0.884);
+    border-radius: 10px;
+}
