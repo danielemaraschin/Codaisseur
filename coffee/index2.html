@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <link rel='stylesheet' href='stylee.css'>
+</head>
+
+<body>
+    <h1>Hallo Wereld</h1>
+    <h3 class='blue-text'>But First</h3>
+
+    <h4> COFFEE 😈</h4>
+    <button onclick="changeColor()"> Change Background Color</button>
+    <img src='https://www.coffee-statistics.com/wp-content/uploads/2021/08/How-to-Make-Cafezinho-3.jpg' width="450"
+        height="450" />
+</body>
+<script>
+
+    function changeColor() {
+        var colors = ["black", "green", "yellow", "white"];
+        console.log('color', colors);
+       var randomic = (Math.random() * 4);
+       console.log("randomic is: " + randomic)
+        var i = Math.floor(randomic)
+
+        console.log('i', i);
+        document.body.style.background = colors[i];
+        
+    }
+</script>
+
+</html>
